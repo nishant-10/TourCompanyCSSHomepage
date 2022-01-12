@@ -1,0 +1,29 @@
+body {
+  padding: 2rem;
+  font-weight: 400;
+  font-family: Lato;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  text-align: center;
+  user-select: none;
+  margin-bottom: 3rem;
+
+  &--main {
+    letter-spacing: 1.3vw;
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700;
+    animation: primary-main 1s ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.7vw;
+    animation: primary-sub 1s ease-out;
+  }
+}

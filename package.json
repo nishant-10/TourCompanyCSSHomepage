@@ -1,0 +1,23 @@
+{
+  "name": "tour_company_homepage_css_only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant-10/TourCompanyCSSHomepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant-10/TourCompanyCSSHomepage/issues"
+  },
+  "homepage": "https://github.com/nishant-10/TourCompanyCSSHomepage#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
